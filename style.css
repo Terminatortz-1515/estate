@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    min-height: 100%;
+    min-width: 100%;
+}
+.image-container {
+    display: flex;
+    background-image: url(head.jpg);
+    justify-content: space-between;
+    width: 100%; 
+  }
+  
+  .left-image {
+   margin-top: 20;
+    margin-left: 0; 
+    margin-right: 80; 
+  }
+  
+  .right-image {
+   margin-top: 20;
+    margin-right: 0; 
+    margin-left: 80; 
+  }
+  h1{
+    font-family: 'Gill Sans';
+    font-weight: bolder;
+    font-size: 450%;
+    color: rgb(0, 0, 0);
+    border-width: 20px;
+  }
+  button.shake-button{
+    border-radius: 40%;
+    font-size: x-large;
+    padding: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(255, 73, 73);
+    border-color: transparent;
+    color: white;
+  }
+  h2{
+    font-size: 120%;
+    font-family: Arial;
+  }
+footer {
+    color: #ffffff; 
+    text-align: center;
+    font: 200%;
+    background: linear-gradient(rgb(0, 255, 0),yellow,black,black,yellow,blue);
+    height: 100px;
+    padding: 10px;
+  }
+  p{
+    margin-top:40px;
+    font-size: larger;
+    font-family: Arial;
+  }
+/* CSS */
+.shake-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .shake-button:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    background-color: blueviolet;
+    color: black;
+  }
+  
+  @keyframes shake {
+    0% {
+      transform: translate(0px, 0px);
+    }
+    25% {
+      transform: translate(-2px, 2px);
+    }
+    50% {
+      transform: translate(2px, -2px);
+    }
+    75% {
+      transform: translate(-2px, 2px);
+    }
+    100% {
+      transform: translate(0px, 0px);
+    }
+  }
